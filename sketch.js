@@ -1,8 +1,11 @@
 function setup() {
    createCanvas(480,480);
 }
+
+ 
 function draw(){
   background(0);
+   /* variable to store second hand value */
   var sec = radians(6*second());
   var min = radians(6*minute());
   var hrs = radians(30*(hour()%12));
